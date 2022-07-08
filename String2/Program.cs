@@ -16,6 +16,11 @@ namespace String2
 			Console.WriteLine(Line.PadLeft(16));
 
 			Console.WriteLine(Line);
+			Console.WriteLine("\n----");
+			int i = 3;
+			Console.WriteLine($"{i:00}");
+			Console.WriteLine();
+			Console.WriteLine();
 
 			Console.Write("\nPress any key");
 			Console.ReadKey();
